@@ -8,5 +8,5 @@ RUN make build
 
 FROM alpine
 WORKDIR /
-COPY --from=builder /app/bin/penguin-app .
-ENTRYPOINT ["./penguin-app"]
+COPY --from=builder /app/bin/penguin-api .
+ENTRYPOINT ["./penguin-api"]

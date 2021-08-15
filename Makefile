@@ -1,4 +1,4 @@
-APP = penguin-app
+APP = penguin-api
 BIN = bin/$(APP)
 CMD_SRC = cmd/$(APP)/main.go
 
